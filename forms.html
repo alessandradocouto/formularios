@@ -1,0 +1,94 @@
+<!Doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Forms</title>
+
+        <meta charset="utf-8">
+        <meta name="author" content="Alessandra ADC">
+        <meta name="description" content="forms">
+        <meta name="keywords" content="html5, css3, tecnologia, login, forms">        
+
+        <link rel="stylesheet" type="text/css" href="forms.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>  
+        <main>  
+            <section>
+                <form action="#" method="POST" class="form-r">
+                    <h1>Registration Form</h1>
+                    <fieldset>
+                        <legend>Your Details</legend> 
+                        <label>
+                            <span class="visuallyhidden">Username</span>
+                            <i class="fa fa-user icon"></i>
+                            <input type="user" class="user" placeholder="Username" name="user" autofocus>
+                        </label>
+
+                        <label>
+                            <span class="visuallyhidden">Email</span>
+                            <i class="fa fa-envelope icon"></i>
+                            <input type="email" class="email" placeholder="Email" name="email" required>
+                        </label>
+
+                        <label>
+                            <span class="visuallyhidden">Password</span>
+                            <i class="fa fa-key icon"></i>
+                            <input type="password" class="pass" placeholder="Password" name="pass" required>
+                        </label>
+                        
+                        <label>
+                            <span class="visuallyhidden">Phone number with area code</span>
+                            <i class="fa fa-mobile-phone"  style="font-size:22px"></i>
+                            <input type="tel" class="phone" placeholder="+99 99 9999 - 9999" name="phone">
+                        </label>
+                    </fieldset>
+
+                    <fieldset> 
+                        <legend>More Details</legend>
+                        <label>
+                            <span class="visuallyhidden">Adults</span>
+                            <i class="fa fa-group" style="font-size:15px"></i>
+                            <input type="number" class="adults" placeholder="Adults" name="adults" min="0" max="8">
+                        </label>
+
+                        <label>
+                            <span class="visuallyhidden">Children</span>
+                            <i class="fa fa-child" style="font-size:17px"></i>
+                            <input type="number" class="children" placeholder="Children" name="children" min="0" max="12">
+                        </label>
+                    </fieldset>
+
+                    <fieldset> 
+                        <legend>Check Details</legend>
+                        <label class="check-i">
+                            <span class="txt-date">Check-in</span>
+                            <i class="fa fa-calendar-plus-o"></i>
+                            <input type="date" class="check-in" placeholder="Check-in date(yyyy-mm-dd)" name="datein" value="yyyy-mm-dd" min="1920-01-01" max="2025-01-01">
+                        </label>
+
+                        <label class="check-o">
+                            <span class="txt-date">Check-out</span>
+                            <i class="fa fa-calendar-check-o"></i>
+                            <input type="date" class="check-out" placeholder="Check-out date(yyyy-mm-dd)" name="dateout" value="yyyy-mm-dd" min="1920-01-01" max="2025-01-01">
+                        </label>
+
+                    </fieldset>
+
+                    <label class="terms">
+                        <input type="checkbox" class="visuallyhidden" name="terms" value="checked">
+                        <span class="new-check"></span>
+                        <span class="txt-atc">I agree to the <a href="#" class="terms-cond" target="_blank" title="open new window">Terms & Conditions</a></span>
+                    </label>
+
+                    <div class="btn-r">
+                        <input type="submit" class="btn" name="register" value="Register">
+                    </div>
+                </form>
+            </section>
+        </main>
+
+    </body>
+</html>
