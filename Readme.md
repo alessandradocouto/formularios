@@ -8,3 +8,9 @@ Compreender o uso dos leitores de tela e sua velocidade de narração, além do 
 
 ### O que eu aprendi
 O posicionamento correto de tags nos formulários, com base nas diretrizes da W3C(WCAG 2.0): input dentro da label para facilitar marcar o checkbox e radio, placeholder não substitui a label, ocultar textos e ainda fazer com que sejam lidos pelos leitores de tela.
+
+![](https://https://github.com/alessandradocouto/formularios/blob/master/imagens/form.png)
+
+Segundo formulário:
+
+![](https://github.com/alessandradocouto/formularios/blob/master/imagens/form2.png)
