@@ -11,8 +11,8 @@ O posicionamento correto de tags nos formulários, com base nas diretrizes da W3
 
 Primeiro formulário:
 
-![](https://github.com/alessandradocouto/formularios/blob/master/imagens/form.png)
+![](https://github.com/alessandradocouto/formularios/blob/master/form.jpg)
 
 Segundo formulário:
 
-![](https://github.com/alessandradocouto/formularios/blob/master/imagens/form2.png)
+![](https://github.com/alessandradocouto/formularios/blob/master/form-2.jpg)
